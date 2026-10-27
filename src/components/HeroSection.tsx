@@ -20,7 +20,7 @@ export const HeroSection: React.FC = () => {
       {/* Background Stadium Photo with Deep Emerald Scrim */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_football_pitch_1793107358356.jpg"
+          src="/images/hero_football_pitch_1793107358356.jpg"
           alt="Sân vận động bóng đá Arena"
           className="w-full h-full object-cover object-center scale-105 filter brightness-75 contrast-110"
           referrerPolicy="no-referrer"

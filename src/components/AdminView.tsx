@@ -73,7 +73,7 @@ export const AdminView: React.FC = () => {
     inStock: true,
     description: '',
     sizes: 'S, M, L, XL',
-    image: '/src/assets/images/category_jersey_1793107359141.jpg'
+    image: '/images/category_jersey_1793107359141.jpg'
   });
 
   // Form states for Customer
@@ -125,7 +125,7 @@ export const AdminView: React.FC = () => {
         inStock: true,
         description: 'Mẫu áo thể thao bóng đá vải dệt co giãn 4 chiều.',
         sizes: 'S, M, L, XL',
-        image: '/src/assets/images/category_jersey_1793107359141.jpg'
+        image: '/images/category_jersey_1793107359141.jpg'
       });
     }
     setIsProductModalOpen(true);

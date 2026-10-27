@@ -118,7 +118,7 @@ const MainLayout: React.FC = () => {
               <div className="lg:col-span-6">
                 <div className="relative rounded-3xl overflow-hidden border border-emerald-600/30 shadow-2xl bg-emerald-900/40 p-2">
                   <img
-                    src="/src/assets/images/hero_football_pitch_1793107358356.jpg"
+                    src="/images/hero_football_pitch_1793107358356.jpg"
                     alt="Sân vận động Arena"
                     className="rounded-2xl w-full h-80 sm:h-96 object-cover"
                     referrerPolicy="no-referrer"
