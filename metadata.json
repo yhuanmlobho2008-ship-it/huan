@@ -1,0 +1,6 @@
+{
+  "name": "Arena Football - Đồ Thể Thao & Phụ Kiện Bóng Đá",
+  "description": "Website bán đồ thể thao bóng đá chuyên nghiệp: áo đấu, giày đá banh, bóng thi đấu và phụ kiện sân cỏ. Tông màu xanh lá và trắng hiện đại.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
