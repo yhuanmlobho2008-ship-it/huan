@@ -53,12 +53,15 @@ interface StoreContextType {
 
 const StoreContext = createContext<StoreContextType | undefined>(undefined);
 
+// Older saved data referenced dev-only /src/assets paths that don't exist in production builds
+const migrateImagePaths = (json: string) => json.replaceAll('/src/assets/images/', '/images/');
+
 export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   // Persistent Products
   const [products, setProducts] = useState<Product[]>(() => {
     try {
       const saved = localStorage.getItem('arena_football_products');
-      if (saved) return JSON.parse(saved);
+      if (saved) return JSON.parse(migrateImagePaths(saved));
     } catch {
       // fallback
     }
@@ -69,7 +72,7 @@ export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   const [cart, setCart] = useState<CartItem[]>(() => {
     try {
       const saved = localStorage.getItem('arena_football_cart');
-      if (saved) return JSON.parse(saved);
+      if (saved) return JSON.parse(migrateImagePaths(saved));
     } catch {
       // fallback
     }

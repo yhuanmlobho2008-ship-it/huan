@@ -19,7 +19,7 @@ export const CategoryShowcase: React.FC = () => {
       title: 'Áo Đấu CLB & ĐTQG',
       subtitle: 'Mẫu áo mùa giải 24/25 vải dệt thoáng khí công nghệ cao',
       count: 6,
-      image: '/src/assets/images/category_jersey_1793107359141.jpg',
+      image: '/images/category_jersey_1793107359141.jpg',
       icon: <Shirt className="w-5 h-5 text-emerald-600" />
     },
     {
@@ -27,7 +27,7 @@ export const CategoryShowcase: React.FC = () => {
       title: 'Giày Đá Bóng Sân Cỏ',
       subtitle: 'Đinh TF cho sân cỏ nhân tạo và FG cho sân cỏ tự nhiên',
       count: 6,
-      image: '/src/assets/images/category_boots_1793107358196.jpg',
+      image: '/images/category_boots_1793107358196.jpg',
       icon: <Footprints className="w-5 h-5 text-emerald-600" />
     },
     {
@@ -35,7 +35,7 @@ export const CategoryShowcase: React.FC = () => {
       title: 'Bóng Thi Đấu FIFA Pro',
       subtitle: 'Bóng tiêu chuẩn ngoại hạng, Cúp C1 và V-League',
       count: 4,
-      image: '/src/assets/images/category_ball_1793107359402.jpg',
+      image: '/images/category_ball_1793107359402.jpg',
       icon: <Disc3 className="w-5 h-5 text-emerald-600" />
     },
     {
@@ -43,7 +43,7 @@ export const CategoryShowcase: React.FC = () => {
       title: 'Phụ Kiện & Đồ Bảo Hộ',
       subtitle: 'Găng tay thủ môn, bọc ống đồng carbon, tất chống trượt',
       count: 4,
-      image: '/src/assets/images/category_boots_1793107358196.jpg',
+      image: '/images/category_boots_1793107358196.jpg',
       icon: <ShieldAlert className="w-5 h-5 text-emerald-600" />
     }
   ];
